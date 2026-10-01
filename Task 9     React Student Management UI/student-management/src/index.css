@@ -1,0 +1,1317 @@
+.contact-item {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f3e8ff, #e0f2fe);
+  border: 2px solid #d8b4fe;
+  box-shadow: 0 8px 20px rgba(103, 76, 174, 0.15);
+  transition: 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(103, 76, 174, 0.25);
+}
+
+/* Email Heading */
+.contact-item:first-of-type h3 {
+  color: #e11d48;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Phone Heading */
+.contact-item:last-of-type h3 {
+  color: #2563eb;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Email & Phone text */
+.contact-item p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+  color: #4c1d95;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Email text */
+.contact-item:first-of-type p {
+  color: #be185d;
+}
+
+/* Phone text */
+.contact-item:last-of-type p {
+  color: #1d4ed8;
+}
+/* ============================= */
+/* COMMON PAGE DESIGN */
+/* ============================= */
+
+.page {
+  min-height: 80vh;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.page h1 {
+  font-size: 44px;
+  margin-bottom: 30px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #674cae, #e11d48, #2563eb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ============================= */
+/* HOME PAGE */
+/* ============================= */
+
+.home-card {
+  max-width: 850px;
+  margin: 30px auto;
+  padding: 45px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ede9fe, #fce7f3, #dbeafe);
+  border: 2px solid #c4b5fd;
+  box-shadow: 0 15px 40px rgba(103, 76, 174, 0.2);
+  transition: 0.3s ease;
+}
+
+.home-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(103, 76, 174, 0.3);
+}
+
+.home-card h2 {
+  color: #674cae;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.home-card p {
+  color: #374151;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* ============================= */
+/* ABOUT PAGE */
+/* ============================= */
+
+.about-card {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #dcfce7, #dbeafe, #fef3c7);
+  border: 2px solid #86efac;
+  box-shadow: 0 15px 40px rgba(34, 197, 94, 0.18);
+  transition: 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(34, 197, 94, 0.28);
+}
+
+.about-card h2 {
+  color: #15803d;
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+.about-card p {
+  color: #374151;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* ============================= */
+/* CONTACT PAGE */
+/* ============================= */
+
+.contact-card {
+  width: 450px;
+  max-width: 90%;
+  margin: 30px auto;
+  padding: 35px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #f3e8ff, #fce7f3, #dbeafe);
+  border: 2px solid #d8b4fe;
+  box-shadow: 0 15px 40px rgba(103, 76, 174, 0.2);
+}
+
+.contact-card h2 {
+  color: #7c3aed;
+  margin-bottom: 25px;
+}
+
+/* Email & Phone */
+
+.contact-item {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #ffffff, #f5f3ff);
+  border: 2px solid #ddd6fe;
+  box-shadow: 0 8px 20px rgba(103, 76, 174, 0.15);
+  transition: 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px) scale(1.02);
+}
+
+.contact-item:first-of-type h3 {
+  color: #e11d48;
+}
+
+.contact-item:last-of-type h3 {
+  color: #2563eb;
+}
+
+.contact-item p {
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.contact-item:first-of-type p {
+  color: #be185d;
+}
+
+.contact-item:last-of-type p {
+  color: #1d4ed8;
+}
+
+/* ============================= */
+/* MOBILE RESPONSIVE */
+/* ============================= */
+
+@media (max-width: 600px) {
+  .page {
+    padding: 40px 15px;
+  }
+
+  .page h1 {
+    font-size: 34px;
+  }
+
+  .home-card,
+  .about-card,
+  .contact-card {
+    padding: 25px;
+  }
+.contact-item:first-of-type p {
+  color: #be185d;
+}
+
+.contact-item:last-of-type p {
+  color: #1d4ed8;
+}/* ================================
+   STUDENT MANAGEMENT PAGE
+================================ */
+
+.student-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(
+    135deg,
+    #f5f3ff 0%,
+    #ede9fe 45%,
+    #e0f2fe 100%
+  );
+  color: #1e1b4b;
+}
+
+/* ================================
+   HERO SECTION
+================================ */
+
+.hero-section {
+  max-width: 1200px;
+  margin: 0 auto 35px;
+  padding: 35px 40px;
+  border-radius: 28px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #7c3aed,
+    #2563eb
+  );
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 20px 45px rgba(103, 76, 174, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  right: 120px;
+  top: -100px;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  right: -40px;
+  bottom: -70px;
+}
+
+.small-title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #ddd6fe;
+}
+
+.hero-section h1 {
+  margin: 0;
+  font-size: 38px;
+  color: white;
+}
+
+.hero-text {
+  margin-top: 12px;
+  color: #ede9fe;
+  font-size: 16px;
+}
+
+.hero-icon {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 55px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+
+  backdrop-filter: blur(10px);
+
+  position: relative;
+  z-index: 2;
+}
+
+/* ================================
+   MAIN CONTENT
+================================ */
+
+.content-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 30px;
+}
+
+/* ================================
+   FORM CARD
+================================ */
+
+.form-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 28px;
+  border-radius: 25px;
+
+  border: 1px solid #ddd6fe;
+
+  box-shadow: 0 15px 35px rgba(103, 76, 174, 0.15);
+
+  height: fit-content;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 25px;
+}
+
+.card-title span {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ede9fe, #dbeafe);
+
+  border-radius: 12px;
+
+  font-size: 20px;
+}
+
+.card-title h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #4c1d95;
+}
+
+/* ================================
+   FORM
+================================ */
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-card label {
+  margin-top: 7px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  color: #4c1d95;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 13px 15px;
+
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #fafafa;
+
+  font-size: 14px;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+}
+
+.form-card input:focus {
+  border-color: #8b5cf6;
+  background: white;
+
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.12);
+}
+
+.form-card input::placeholder {
+  color: #9ca3af;
+}
+
+/* ================================
+   ADD BUTTON
+================================ */
+
+.add-button {
+  margin-top: 15px;
+
+  padding: 14px;
+
+  border: none;
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #7c3aed,
+    #2563eb
+  );
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(103, 76, 174, 0.3);
+
+  transition: all 0.3s ease;
+}
+
+.add-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 25px rgba(103, 76, 174, 0.4);
+}
+
+/* ================================
+   LIST SECTION
+================================ */
+
+.list-section {
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 28px;
+
+  border-radius: 25px;
+
+  border: 1px solid #ddd6fe;
+
+  box-shadow: 0 15px 35px rgba(103, 76, 174, 0.12);
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.list-header h2 {
+  margin: 0;
+
+  font-size: 28px;
+
+  color: #4c1d95;
+}
+
+.student-count {
+  padding: 10px 18px;
+
+  border-radius: 30px;
+
+  background: linear-gradient(
+    135deg,
+    #ede9fe,
+    #dbeafe
+  );
+
+  color: #5b21b6;
+
+  font-weight: 700;
+
+  border: 1px solid #c4b5fd;
+}
+
+/* ================================
+   STUDENT GRID
+================================ */
+
+.student-grid {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  );
+
+  gap: 20px;
+}
+
+/* ================================
+   STUDENT CARD
+================================ */
+
+.student-card {
+  padding: 22px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f5f3ff
+  );
+
+  border: 2px solid #ddd6fe;
+
+  box-shadow: 0 10px 25px rgba(103, 76, 174, 0.12);
+
+  transition: all 0.3s ease;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.student-card::before {
+  content: "";
+
+  position: absolute;
+
+  height: 5px;
+
+  width: 100%;
+
+  left: 0;
+  top: 0;
+
+  background: linear-gradient(
+    90deg,
+    #674cae,
+    #8b5cf6,
+    #2563eb
+  );
+}
+
+.student-card:hover {
+  transform: translateY(-7px);
+
+  border-color: #a78bfa;
+
+  box-shadow: 0 18px 35px rgba(103, 76, 174, 0.22);
+}
+
+/* ================================
+   TOP
+================================ */
+
+.student-top {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 18px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 17px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #8b5cf6
+  );
+
+  color: white;
+
+  font-size: 22px;
+
+  font-weight: 800;
+
+  box-shadow: 0 8px 18px rgba(103, 76, 174, 0.3);
+}
+
+.status {
+  padding: 6px 11px;
+
+  border-radius: 20px;
+
+  background: #dcfce7;
+
+  color: #15803d;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+/* ================================
+   STUDENT NAME
+================================ */
+
+.student-card h3 {
+  margin: 0 0 8px;
+
+  color: #4c1d95;
+
+  font-size: 21px;
+}
+
+/* ================================
+   EMAIL
+================================ */
+
+.email {
+  color: #6b7280;
+
+  font-size: 14px;
+
+  margin-bottom: 20px;
+
+  word-break: break-word;
+}
+
+/* ================================
+   COURSE + AGE
+================================ */
+
+.student-info {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.student-info div {
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #f3e8ff,
+    #e0f2fe
+  );
+
+  border: 1px solid #ddd6fe;
+}
+
+.student-info span {
+  display: block;
+
+  font-size: 11px;
+
+  color: #6b7280;
+
+  margin-bottom: 5px;
+}
+
+.student-info strong {
+  color: #5b21b6;
+
+  font-size: 15px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+.card-footer {
+  padding-top: 15px;
+
+  border-top: 1px solid #e5e7eb;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 900px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .student-page {
+    padding: 20px 12px;
+  }
+
+  .hero-section {
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 28px;
+  }
+
+  .hero-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+  }
+
+  .list-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .student-grid {
+    grid-template-columns: 1fr;
+  }
+}/* ================================
+   STUDENT MANAGEMENT PAGE
+================================ */
+
+.student-page {
+  min-height: 100vh;
+  padding: 40px;
+  background: linear-gradient(
+    135deg,
+    #f5f3ff 0%,
+    #ede9fe 45%,
+    #e0f2fe 100%
+  );
+  color: #1e1b4b;
+}
+
+/* ================================
+   HERO SECTION
+================================ */
+
+.hero-section {
+  max-width: 1200px;
+  margin: 0 auto 35px;
+  padding: 35px 40px;
+  border-radius: 28px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #7c3aed,
+    #2563eb
+  );
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 20px 45px rgba(103, 76, 174, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  right: 120px;
+  top: -100px;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  right: -40px;
+  bottom: -70px;
+}
+
+.small-title {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #ddd6fe;
+}
+
+.hero-section h1 {
+  margin: 0;
+  font-size: 38px;
+  color: white;
+}
+
+.hero-text {
+  margin-top: 12px;
+  color: #ede9fe;
+  font-size: 16px;
+}
+
+.hero-icon {
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 55px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+
+  backdrop-filter: blur(10px);
+
+  position: relative;
+  z-index: 2;
+}
+
+/* ================================
+   MAIN CONTENT
+================================ */
+
+.content-grid {
+  max-width: 1200px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 30px;
+}
+
+/* ================================
+   FORM CARD
+================================ */
+
+.form-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 28px;
+  border-radius: 25px;
+
+  border: 1px solid #ddd6fe;
+
+  box-shadow: 0 15px 35px rgba(103, 76, 174, 0.15);
+
+  height: fit-content;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 25px;
+}
+
+.card-title span {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(135deg, #ede9fe, #dbeafe);
+
+  border-radius: 12px;
+
+  font-size: 20px;
+}
+
+.card-title h2 {
+  margin: 0;
+  font-size: 22px;
+  color: #4c1d95;
+}
+
+/* ================================
+   FORM
+================================ */
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-card label {
+  margin-top: 7px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  color: #4c1d95;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 13px 15px;
+
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+
+  background: #fafafa;
+
+  font-size: 14px;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+}
+
+.form-card input:focus {
+  border-color: #8b5cf6;
+  background: white;
+
+  box-shadow: 0 0 0 4px rgba(139, 92, 246, 0.12);
+}
+
+.form-card input::placeholder {
+  color: #9ca3af;
+}
+
+/* ================================
+   ADD BUTTON
+================================ */
+
+.add-button {
+  margin-top: 15px;
+
+  padding: 14px;
+
+  border: none;
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #7c3aed,
+    #2563eb
+  );
+
+  color: white;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(103, 76, 174, 0.3);
+
+  transition: all 0.3s ease;
+}
+
+.add-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow: 0 12px 25px rgba(103, 76, 174, 0.4);
+}
+
+/* ================================
+   LIST SECTION
+================================ */
+
+.list-section {
+  background: rgba(255, 255, 255, 0.75);
+
+  padding: 28px;
+
+  border-radius: 25px;
+
+  border: 1px solid #ddd6fe;
+
+  box-shadow: 0 15px 35px rgba(103, 76, 174, 0.12);
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.list-header h2 {
+  margin: 0;
+
+  font-size: 28px;
+
+  color: #4c1d95;
+}
+
+.student-count {
+  padding: 10px 18px;
+
+  border-radius: 30px;
+
+  background: linear-gradient(
+    135deg,
+    #ede9fe,
+    #dbeafe
+  );
+
+  color: #5b21b6;
+
+  font-weight: 700;
+
+  border: 1px solid #c4b5fd;
+}
+
+/* ================================
+   STUDENT GRID
+================================ */
+
+.student-grid {
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(250px, 1fr)
+  );
+
+  gap: 20px;
+}
+
+/* ================================
+   STUDENT CARD
+================================ */
+
+.student-card {
+  padding: 22px;
+
+  border-radius: 22px;
+
+  background: linear-gradient(
+    145deg,
+    #ffffff,
+    #f5f3ff
+  );
+
+  border: 2px solid #ddd6fe;
+
+  box-shadow: 0 10px 25px rgba(103, 76, 174, 0.12);
+
+  transition: all 0.3s ease;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.student-card::before {
+  content: "";
+
+  position: absolute;
+
+  height: 5px;
+
+  width: 100%;
+
+  left: 0;
+  top: 0;
+
+  background: linear-gradient(
+    90deg,
+    #674cae,
+    #8b5cf6,
+    #2563eb
+  );
+}
+
+.student-card:hover {
+  transform: translateY(-7px);
+
+  border-color: #a78bfa;
+
+  box-shadow: 0 18px 35px rgba(103, 76, 174, 0.22);
+}
+
+/* ================================
+   TOP
+================================ */
+
+.student-top {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin-bottom: 18px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 17px;
+
+  background: linear-gradient(
+    135deg,
+    #674cae,
+    #8b5cf6
+  );
+
+  color: white;
+
+  font-size: 22px;
+
+  font-weight: 800;
+
+  box-shadow: 0 8px 18px rgba(103, 76, 174, 0.3);
+}
+
+.status {
+  padding: 6px 11px;
+
+  border-radius: 20px;
+
+  background: #dcfce7;
+
+  color: #15803d;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+/* ================================
+   STUDENT NAME
+================================ */
+
+.student-card h3 {
+  margin: 0 0 8px;
+
+  color: #4c1d95;
+
+  font-size: 21px;
+}
+
+/* ================================
+   EMAIL
+================================ */
+
+.email {
+  color: #6b7280;
+
+  font-size: 14px;
+
+  margin-bottom: 20px;
+
+  word-break: break-word;
+}
+
+/* ================================
+   COURSE + AGE
+================================ */
+
+.student-info {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.student-info div {
+  padding: 12px;
+
+  border-radius: 13px;
+
+  background: linear-gradient(
+    135deg,
+    #f3e8ff,
+    #e0f2fe
+  );
+
+  border: 1px solid #ddd6fe;
+}
+
+.student-info span {
+  display: block;
+
+  font-size: 11px;
+
+  color: #6b7280;
+
+  margin-bottom: 5px;
+}
+
+.student-info strong {
+  color: #5b21b6;
+
+  font-size: 15px;
+}
+
+/* ================================
+   FOOTER
+================================ */
+
+.card-footer {
+  padding-top: 15px;
+
+  border-top: 1px solid #e5e7eb;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #6b7280;
+
+  font-size: 12px;
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 900px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .student-page {
+    padding: 20px 12px;
+  }
+
+  .hero-section {
+    padding: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-section h1 {
+    font-size: 28px;
+  }
+
+  .hero-icon {
+    width: 75px;
+    height: 75px;
+    font-size: 40px;
+  }
+
+  .list-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .student-grid {
+    grid-template-columns: 1fr;
+  }
+}_
